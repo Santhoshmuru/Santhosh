@@ -1,0 +1,40 @@
+body{
+  margin:10px;
+  padding:10px;
+  font-weight: bold;
+  background-color: rgb(240, 247, 248);
+  color:black;
+  font-style:bold;
+  column-gap: 3px solid;
+  text-align: justify;
+}
+
+
+.container
+{
+  column-count: 4;
+  text-align-last: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:18px;
+ 
+}
+.container p:first-letter
+{
+  font-size: 3em;
+  float: left;
+  line-height: 50%;
+  margin: 0.1em 0.1em 0.1em -0.05em;
+}
+.container img
+{
+height: 170px;
+width: 90%;
+}
+.container h1{
+  column-span: all;
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 45px;
+}
+
